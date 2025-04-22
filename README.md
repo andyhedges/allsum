@@ -46,7 +46,7 @@
 ### Standard
 
 ```bash
-go install github.com/andyhedges/allsum@latest
+go install github.com/andyhedges/allsum
 ```
 
 ### Locally
