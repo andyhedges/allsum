@@ -1,4 +1,4 @@
-module allsum
+module github.com/andyhedges/allsum
 
 go 1.23.5
 

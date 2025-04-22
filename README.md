@@ -43,7 +43,17 @@
 
 ## Installation
 
+### Standard
+
 ```bash
+go install github.com/andyhedges/allsum@latest
+```
+
+### Locally
+
+```bash
+git clone https://github.com/andyhedges/allsum.git
+cd allsum
 go build -o allsum main.go
 ```
 
@@ -100,12 +110,6 @@ cat file.bin | ./allsum -alg md5 -
 ```bash
 ./allsum -l -format json
 ```
-
-## License
-
-MIT License
-
----
 
 **allsum** is a helpful tool for generating file integrity checks in multiple formats using many popular (and some less common) hash algorithms. Great for backup verification, forensic tools, or scripting!
 
